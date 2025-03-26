@@ -1,0 +1,6 @@
+n=int(input())
+a=list(map(int,input().split()))
+x=int(input())
+f=a.index(x)
+l=len(a)-1-a[::-1].index(x)
+print(f,l)
