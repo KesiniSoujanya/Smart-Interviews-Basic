@@ -1,0 +1,4 @@
+n=list(map(int,input().split()))
+a=sum(n)
+x=(100*101)//2
+print(x-a)
